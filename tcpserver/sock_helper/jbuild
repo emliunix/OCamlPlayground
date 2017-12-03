@@ -1,0 +1,9 @@
+;; -*- lisp -*-
+
+(jbuild_version 1)
+
+(library
+ ((name helper)
+  (libraries (ctypes))
+  (c_names (sock_helper))
+  ))

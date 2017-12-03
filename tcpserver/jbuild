@@ -1,0 +1,22 @@
+;; -*- lisp -*-
+
+(jbuild_version 1)
+
+(executable
+ ((name main)
+  (libraries (core async sock_helper))
+  (modules (:standard \ sock_helper))
+))
+
+(library
+ ((name sock_helper)
+  (libraries (ctypes ctypes.foreign))
+  (modules (sock_helper))
+  (c_names (c_sock_helper))
+  (c_library_flags (-rdynamic))
+))
+
+(install
+ ((section bin)
+  (files
+   ((main.exe as srv)))))

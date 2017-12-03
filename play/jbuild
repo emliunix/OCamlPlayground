@@ -1,0 +1,12 @@
+;; -*- lisp -*-
+
+(jbuild_version 1)
+
+(executable
+ ((name main)
+  (libraries (llvm lwt core async))))
+
+(install
+ ((section bin)
+  (files
+   ((main.exe as play)))))

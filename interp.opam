@@ -1,0 +1,22 @@
+opam-version: "1.2"
+version: "0.1"
+maintainer: "emliunix@hotmail.com"
+authors: ["Yuhui Liu <emliunix@hotmail.com>"]
+homepage: "https://blog.emliunix.net"
+license: "MIT"
+dev-repo: "_|_"
+bug-reports: "_|_"
+build: [
+  ["jbuilder" "build" "--root" "." "-j" jobs "@install"]
+]
+depends: [
+  "async"
+  "jbuilder"
+  "core"
+  "textutils"
+  "yojson"
+  "lwt"
+  "llvm" = "4.0.0"
+]
+Available: [ ocaml-version >= "4.03.0" ]
+descr: "emliunix's first ocaml playground"
