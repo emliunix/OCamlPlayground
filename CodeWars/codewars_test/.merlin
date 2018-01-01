@@ -1,0 +1,13 @@
+B ../_build/default/codewars
+B ../_build/default/codewars_test
+FLG -w -40
+PKG alcotest
+PKG astring
+PKG bytes
+PKG cmdliner
+PKG fmt
+PKG fmt.cli
+PKG fmt.tty
+PKG result
+PKG unix
+S ../codewars

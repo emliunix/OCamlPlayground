@@ -1,0 +1,4 @@
+lib: [
+  "_build/install/default/lib/codewars/META" {"META"}
+  "_build/install/default/lib/codewars/opam" {"opam"}
+]
