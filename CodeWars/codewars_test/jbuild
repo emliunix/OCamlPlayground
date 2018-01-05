@@ -3,7 +3,7 @@
 (executable
  ((name tests)
   (modules    (tests))
-  (libraries  (alcotest maxRot))))
+  (libraries  (alcotest maxRot seven))))
 
 (alias
  ((name runtest)

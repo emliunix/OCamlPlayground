@@ -6,3 +6,10 @@
   (modules (maxRot))
   (synopsis  "https://www.codewars.com/kata/56a4872cbb65f3a610000026/train/ocaml")
   (libraries ())))
+
+(library
+ ((name seven)
+  (wrapped false)
+  (modules (seven))
+  (synopsis "https://www.codewars.com/kata/55e6f5e58f7817808e00002e/train/ocaml")
+  (libraries ())))
